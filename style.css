@@ -10,8 +10,7 @@ li {
     float: left;
 }
 
-
-li a {
+#nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -19,36 +18,24 @@ li a {
     text-decoration: none;
 }
 
-#contact li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 2px 2px 0px 7px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
-/* Add a gray right border to all list items, except the last item (last-child) */
-li {
-    border-right: 2px solid #FFFFF0;
+
+ul li a.active {
+    background-color: slategray;
 }
 
-#contact li a{
-
+#nav li {
+    border-right: 2px solid #ffffff;
 }
 
-ul li a.active{
-   background-color: #708090;
+img {
+    padding: 3px 3px 0px 3px;
 }
-
-
 body {
-    background-color: #ffffff;
+    background-color: lightblue;
 }
-h1 {border-bottom-color: coral;}
 
 #button a:link, a:visited {
     background-color: #f44336;
@@ -60,10 +47,8 @@ h1 {border-bottom-color: coral;}
     text-decoration: none;
     display: inline-block;
 }
-
-
+    
+    
 #button a:hover, a:active {
     background-color: red;
 }
-
-

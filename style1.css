@@ -10,7 +10,7 @@ li {
     float: left;
 }
 
-li a {
+#nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -18,16 +18,33 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
-/* Add a gray right border to all list items, except the last item (last-child) */
-li {
-    border-right: 2px solid #bbb;
+
+#nav li {
+    border-right: 2px solid #ffffff;
 }
 
-li:last-child {
-    border-right: none;
+img {
+    padding: 3px 2px 0px 2px;
+}
+body {
+    background-color: lightblue;
+}
 
-
+#button a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    width: 48%;
+    padding: 14px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+    
+    
+#button a:hover, a:active {
+    background-color: red;
+}
