@@ -37,18 +37,41 @@ body {
     background-color: lightblue;
 }
 
-#button a:link, a:visited {
+#buttons a:link, a:visited {
     background-color: #f44336;
     color: white;
     width: 48%;
-    padding: 14px;
+    padding: 10px;
     box-sizing: border-box;
     text-align: center;
     text-decoration: none;
     display: inline-block;
 }
-    
-    
-#button a:hover, a:active {
+        
+#buttons a:hover, a:active {
     background-color: red;
+}
+
+#button1 {  
+    background-color: #f44336;
+    color: white;
+    width: 48%;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    margin-left: 1.6%;
+}
+
+#button2 {
+    background-color: #f44336;
+    color: white;
+    width: 48%;
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 1.6%;
 }
