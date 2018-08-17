@@ -76,3 +76,12 @@ body {
 .button2:hover {
     background-color: red;
 }
+
+.summary {
+    text-align: center;
+}
+
+#gallery {
+    background: border-box black;
+    padding: 5px;
+}
