@@ -37,9 +37,8 @@ ul li a.active {
 
 .contact {
     padding: 3px 3px 0px 3px;
-    height: 39px;
-    width: 39px;
 }
+
 body {
     background-color: rgba(8, 53, 68, 0.384);
 }
@@ -48,22 +47,32 @@ body {
     background-color: #4CAF50;
     border: solid;
     color: white;
-    padding: 3% 20.25% 3% 20.25%;
+    margin-left: 0;
+    width: 49.1%;
+    padding: 3% 0% 3% 0%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
 }
 
 .button2 {
     background-color: #4CAF50; 
     border: solid;
     color: white;
-    padding: 3% 19.6% 3% 19.6%;
+    margin-right: 0%;
+    width: 49.1%;
+    padding: 3% 0% 3% 0%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    
+}
+
+.button1:hover {
+    background-color: red;
+}
+
+.button2:hover {
+    background-color: red;
 }
