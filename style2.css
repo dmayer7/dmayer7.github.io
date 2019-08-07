@@ -1,0 +1,48 @@
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    opacity: 0.5;
+}
+
+#nav li a:hover {
+    background-color: #111;
+    opacity: 1;
+}
+
+ul li a.active {
+    background-color: slategray;
+}
+
+#nav li {
+    border-right: 2px solid #ffffff;
+}
+
+.contact {
+    padding: 3px 3px 0px 3px;
+}
+
+body {
+    background-color: rgba(8, 53, 68, 0.384);
+}
+        
+
+
+
